@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Lista de Pacientes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <h1>Lista de Pacientes</h1>
+          </div>
+    </header>
+
+    <!-- Formulário para adicionar novo paciente -->
+    <section class="newItem">
+        <label for="newPaciente">Nome do paciente*</label><br>
+        <input type="text" id="newPaciente" placeholder="João Silva" required>
+        <label for="newValor">Valor mensal*</label><br>
+        <input type="text" id="newValor" placeholder="000.00" required>
+        <label for="newDia">Dia(s) da semana*</label><br>
+        <input type="text" id="newDia" placeholder="Segunda-feira" required>
+        <label for="newComent">Comentário</label><br>
+        <input type="text" id="newComent" placeholder="Link">
+        <button><span onclick="newItem()" class="addBtn">OK</span></button>
+    </section>
+
+    <!-- Tabela com itens existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th id="nome">Nome</th>
+                <th id="valor">Valor</th>
+                <th id="diadasemana">Dia da semana</th>
+                <th id="comentario">Comentário</th>
+                <th id="acoes">Ações</th>
+            </tr>
+            <tr>
+                <!-- Dados existentes -->
+            </tr>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

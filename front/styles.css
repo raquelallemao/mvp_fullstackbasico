@@ -1,0 +1,109 @@
+body {
+    background-color: #F4EFF0;
+    font-family: 'Playfair', serif;
+    color: #343434;
+  }
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background-image: url("arranjo-de-livros-de-vista-acima.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(225, 199, 208, 0.8);
+    text-shadow: 2px 2px 5px #303030;
+    color: #303030;
+    font-size: 30px;
+    opacity: 80%;
+  }
+
+.newItem {
+    background-color: rgba(225, 199, 208, 0.8);
+    padding: 20px 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border: 1px solid rgb(170, 145, 154);
+}
+
+.items {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.close{
+    text-align: center;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+button {
+    margin-left: 15px;
+    background-color: #cbcbcb;
+    border-radius: 4px;
+}
+
+label{
+    font-size: 14px;
+    display: block;
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(170, 145, 154);
+    border-collapse: collapse;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 18px;
+    text-align: start;
+}
+
+th {
+    background-color: rgba(225, 199, 208, 0.8);
+}
+
+table {
+    background-color: white;
+    width: 60%;
+    padding-top: 20px;
+}
+
+#nome {
+    width: 40%;
+}
+
+#diadasemana {
+    width: 35%;
+}
+
+#excluir {
+    width: 20px;
+}
+
